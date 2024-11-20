@@ -1,5 +1,7 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import HomeLayout from "../layout/HomeLayout";
+import StartLearning from "../pages/StartLearning";
+import LessonDetails from "../pages/LessonDetails";
 
 const router = createBrowserRouter([
   {
@@ -8,7 +10,13 @@ const router = createBrowserRouter([
   },
   {
     path: "/start-learning",
-    element: <h2>Start Learning</h2>,
+    element: <StartLearning />,
+    loader: () => fetch("/lessons.json"),
+  },
+  {
+    path: "/lessons/:id",
+    element: <LessonDetails />,
+    loader: () => fetch(`/total.json`),
   },
   {
     path: "/tutorials",

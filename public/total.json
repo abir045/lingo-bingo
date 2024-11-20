@@ -1,0 +1,513 @@
+[
+  {
+    "id": "1",
+    "lesson_no": 1,
+    "words": [
+      {
+        "word": "hola",
+        "pronunciation": "oh-lah",
+        "meaning": "hello",
+        "part_of_speech": "interjection",
+        "difficulty": "easy",
+        "when_to_say": "When greeting someone casually",
+        "example": "Hola, ¿cómo estás? (oh-lah, koh-moh ehs-tahs?) - Hello, how are you?"
+      },
+      {
+        "word": "adiós",
+        "pronunciation": "ah-dee-ohs",
+        "meaning": "goodbye",
+        "part_of_speech": "interjection",
+        "difficulty": "easy",
+        "when_to_say": "When saying goodbye",
+        "example": "Adiós, nos vemos mañana. (ah-dee-ohs, nohs beh-mohs mahn-yah-nah) - Goodbye, see you tomorrow."
+      },
+      {
+        "word": "gracias",
+        "pronunciation": "grah-syahs",
+        "meaning": "thank you",
+        "part_of_speech": "interjection",
+        "difficulty": "easy",
+        "when_to_say": "When expressing gratitude",
+        "example": "Gracias por tu ayuda. (grah-syahs por too ah-yoo-dah) - Thank you for your help."
+      },
+      {
+        "word": "por favor",
+        "pronunciation": "por fah-bohr",
+        "meaning": "please",
+        "part_of_speech": "phrase",
+        "difficulty": "easy",
+        "when_to_say": "When making polite requests",
+        "example": "Pásame la sal, por favor. (pah-sah-meh lah sahl, por fah-bohr) - Pass me the salt, please."
+      },
+      {
+        "word": "lo siento",
+        "pronunciation": "loh syehn-toh",
+        "meaning": "sorry",
+        "part_of_speech": "phrase",
+        "difficulty": "easy",
+        "when_to_say": "When apologizing",
+        "example": "Lo siento por llegar tarde. (loh syehn-toh por yeh-gahr tahr-deh) - I am sorry for being late."
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "lesson_no": 2,
+    "words": [
+      {
+        "word": "perro",
+        "pronunciation": "peh-rroh",
+        "meaning": "dog",
+        "part_of_speech": "noun",
+        "difficulty": "easy",
+        "when_to_say": "When talking about a dog",
+        "example": "El perro está en el jardín. (el peh-rroh ehs-tah en el hahr-deen) - The dog is in the garden."
+      },
+      {
+        "word": "gato",
+        "pronunciation": "gah-toh",
+        "meaning": "cat",
+        "part_of_speech": "noun",
+        "difficulty": "easy",
+        "when_to_say": "When talking about a cat",
+        "example": "Tengo un gato negro. (tehn-goh oon gah-toh neh-groh) - I have a black cat."
+      },
+      {
+        "word": "caballo",
+        "pronunciation": "kah-bah-yoh",
+        "meaning": "horse",
+        "part_of_speech": "noun",
+        "difficulty": "medium",
+        "when_to_say": "When talking about a horse",
+        "example": "El caballo corre rápido. (el kah-bah-yoh koh-rreh rah-pee-doh) - The horse runs fast."
+      },
+      {
+        "word": "pez",
+        "pronunciation": "pehs",
+        "meaning": "fish",
+        "part_of_speech": "noun",
+        "difficulty": "medium",
+        "when_to_say": "When referring to a fish",
+        "example": "El pez nada en el río. (el pehs nah-dah en el ree-oh) - The fish swims in the river."
+      },
+      {
+        "word": "pájaro",
+        "pronunciation": "pah-hah-roh",
+        "meaning": "bird",
+        "part_of_speech": "noun",
+        "difficulty": "medium",
+        "when_to_say": "When referring to a bird",
+        "example": "El pájaro canta en la mañana. (el pah-hah-roh kahn-tah en lah mah-nyah-nah) - The bird sings in the morning."
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "lesson_no": 3,
+    "words": [
+      {
+        "word": "feliz",
+        "pronunciation": "feh-lees",
+        "meaning": "happy",
+        "part_of_speech": "adjective",
+        "difficulty": "easy",
+        "when_to_say": "When expressing happiness",
+        "example": "Estoy muy feliz hoy. (ehs-toy moo-ee feh-lees oy) - I am very happy today."
+      },
+      {
+        "word": "triste",
+        "pronunciation": "trees-teh",
+        "meaning": "sad",
+        "part_of_speech": "adjective",
+        "difficulty": "easy",
+        "when_to_say": "When expressing sadness",
+        "example": "Me siento triste por la noticia. (meh syen-toh trees-teh por lah noh-tee-syah) - I feel sad about the news."
+      },
+      {
+        "word": "cansado",
+        "pronunciation": "kahn-sah-doh",
+        "meaning": "tired",
+        "part_of_speech": "adjective",
+        "difficulty": "medium",
+        "when_to_say": "When expressing fatigue",
+        "example": "Estoy cansado después del trabajo. (ehs-toy kahn-sah-doh dehs-pwehs del trah-bah-hoh) - I am tired after work."
+      },
+      {
+        "word": "enojado",
+        "pronunciation": "eh-noh-hah-doh",
+        "meaning": "angry",
+        "part_of_speech": "adjective",
+        "difficulty": "medium",
+        "when_to_say": "When expressing anger",
+        "example": "Estoy enojado con mi hermano. (ehs-toy eh-noh-hah-doh kohn mee ehr-mah-noh) - I am angry with my brother."
+      },
+      {
+        "word": "nervioso",
+        "pronunciation": "nehr-vyoh-soh",
+        "meaning": "nervous",
+        "part_of_speech": "adjective",
+        "difficulty": "medium",
+        "when_to_say": "When expressing nervousness",
+        "example": "Estoy nervioso por el examen. (ehs-toy nehr-vyoh-soh por el ehx-ah-mehn) - I am nervous about the exam."
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "lesson_no": 4,
+    "words": [
+      {
+        "word": "comer",
+        "pronunciation": "koh-mehr",
+        "meaning": "to eat",
+        "part_of_speech": "verb",
+        "difficulty": "easy",
+        "when_to_say": "When referring to eating",
+        "example": "Voy a comer pizza. (voy ah koh-mehr peet-sah) - I am going to eat pizza."
+      },
+      {
+        "word": "beber",
+        "pronunciation": "beh-behr",
+        "meaning": "to drink",
+        "part_of_speech": "verb",
+        "difficulty": "easy",
+        "when_to_say": "When referring to drinking",
+        "example": "Quiero beber agua. (kyeh-roh beh-behr ah-gwah) - I want to drink water."
+      },
+      {
+        "word": "cocinar",
+        "pronunciation": "koh-see-nahr",
+        "meaning": "to cook",
+        "part_of_speech": "verb",
+        "difficulty": "medium",
+        "when_to_say": "When talking about cooking",
+        "example": "Me gusta cocinar para mi familia. (meh goos-tah koh-see-nahr pah-rah mee fah-mee-lyah) - I like to cook for my family."
+      },
+      {
+        "word": "comprar",
+        "pronunciation": "kohm-prahr",
+        "meaning": "to buy",
+        "part_of_speech": "verb",
+        "difficulty": "medium",
+        "when_to_say": "When referring to purchasing",
+        "example": "Voy a comprar frutas. (voy ah kohm-prahr froo-tahs) - I am going to buy fruits."
+      },
+      {
+        "word": "leer",
+        "pronunciation": "leh-ehr",
+        "meaning": "to read",
+        "part_of_speech": "verb",
+        "difficulty": "medium",
+        "when_to_say": "When referring to reading",
+        "example": "Estoy leyendo un libro. (ehs-toy leh-yehn-doh oon lee-broh) - I am reading a book."
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "lesson_no": 5,
+    "words": [
+      {
+        "word": "mesa",
+        "pronunciation": "meh-sah",
+        "meaning": "table",
+        "part_of_speech": "noun",
+        "difficulty": "easy",
+        "when_to_say": "When mentioning furniture",
+        "example": "La mesa es grande. (lah meh-sah ehs grahn-deh) - The table is big."
+      },
+      {
+        "word": "silla",
+        "pronunciation": "see-yah",
+        "meaning": "chair",
+        "part_of_speech": "noun",
+        "difficulty": "easy",
+        "when_to_say": "When mentioning furniture",
+        "example": "La silla está rota. (lah see-yah ehs-tah roh-tah) - The chair is broken."
+      },
+      {
+        "word": "ventana",
+        "pronunciation": "behn-tah-nah",
+        "meaning": "window",
+        "part_of_speech": "noun",
+        "difficulty": "easy",
+        "when_to_say": "When mentioning windows",
+        "example": "La ventana está abierta. (lah behn-tah-nah ehs-tah ah-byehr-tah) - The window is open."
+      },
+      {
+        "word": "puerta",
+        "pronunciation": "pwehr-tah",
+        "meaning": "door",
+        "part_of_speech": "noun",
+        "difficulty": "easy",
+        "when_to_say": "When mentioning doors",
+        "example": "La puerta está cerrada. (lah pwehr-tah ehs-tah seh-rrah-dah) - The door is closed."
+      },
+      {
+        "word": "lámpara",
+        "pronunciation": "lahm-pah-rah",
+        "meaning": "lamp",
+        "part_of_speech": "noun",
+        "difficulty": "easy",
+        "when_to_say": "When referring to light sources",
+        "example": "La lámpara está encendida. (lah lahm-pah-rah ehs-tah ehn-sehn-dee-dah) - The lamp is on."
+      }
+    ]
+  },
+
+  {
+    "id": "6",
+    "lesson_no": 6,
+    "words": [
+      {
+        "word": "rojo",
+        "pronunciation": "roh-hoh",
+        "meaning": "red",
+        "part_of_speech": "adjective",
+        "difficulty": "easy",
+        "when_to_say": "When describing colors",
+        "example": "El coche es rojo. (el koh-cheh ehs roh-hoh) - The car is red."
+      },
+      {
+        "word": "verde",
+        "pronunciation": "behr-deh",
+        "meaning": "green",
+        "part_of_speech": "adjective",
+        "difficulty": "easy",
+        "when_to_say": "When describing colors",
+        "example": "La planta es verde. (lah plahn-tah ehs behr-deh) - The plant is green."
+      },
+      {
+        "word": "azul",
+        "pronunciation": "ah-sool",
+        "meaning": "blue",
+        "part_of_speech": "adjective",
+        "difficulty": "easy",
+        "when_to_say": "When describing colors",
+        "example": "El cielo es azul. (el syeh-loh ehs ah-sool) - The sky is blue."
+      },
+      {
+        "word": "amarillo",
+        "pronunciation": "ah-mah-ree-yoh",
+        "meaning": "yellow",
+        "part_of_speech": "adjective",
+        "difficulty": "easy",
+        "when_to_say": "When describing colors",
+        "example": "El sol es amarillo. (el sohl ehs ah-mah-ree-yoh) - The sun is yellow."
+      },
+      {
+        "word": "negro",
+        "pronunciation": "neh-groh",
+        "meaning": "black",
+        "part_of_speech": "adjective",
+        "difficulty": "easy",
+        "when_to_say": "When describing colors",
+        "example": "El coche es negro. (el koh-cheh ehs neh-groh) - The car is black."
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "lesson_no": 7,
+    "words": [
+      {
+        "word": "escuela",
+        "pronunciation": "ehs-kweh-lah",
+        "meaning": "school",
+        "part_of_speech": "noun",
+        "difficulty": "medium",
+        "when_to_say": "When talking about education",
+        "example": "Voy a la escuela todos los días. (voy ah lah ehs-kweh-lah toh-dohs lohs dee-ahs) - I go to school every day."
+      },
+      {
+        "word": "maestro",
+        "pronunciation": "mah-ehs-troh",
+        "meaning": "teacher",
+        "part_of_speech": "noun",
+        "difficulty": "medium",
+        "when_to_say": "When talking about educators",
+        "example": "El maestro es amable. (el mah-ehs-troh ehs ah-mah-bleh) - The teacher is kind."
+      },
+      {
+        "word": "estudiante",
+        "pronunciation": "ehs-too-dee-ahn-teh",
+        "meaning": "student",
+        "part_of_speech": "noun",
+        "difficulty": "medium",
+        "when_to_say": "When referring to students",
+        "example": "El estudiante está aprendiendo español. (el ehs-too-dee-ahn-teh ehs-tah ah-prehn-dyen-doh ehs-pah-nyohl) - The student is learning Spanish."
+      },
+      {
+        "word": "clase",
+        "pronunciation": "klah-seh",
+        "meaning": "class",
+        "part_of_speech": "noun",
+        "difficulty": "easy",
+        "when_to_say": "When referring to lessons",
+        "example": "La clase de español es divertida. (lah klah-seh deh ehs-pah-nyohl ehs dee-behr-tee-dah) - The Spanish class is fun."
+      },
+      {
+        "word": "libro",
+        "pronunciation": "lee-broh",
+        "meaning": "book",
+        "part_of_speech": "noun",
+        "difficulty": "medium",
+        "when_to_say": "When referring to books",
+        "example": "Estoy leyendo un libro. (ehs-toy leh-yehn-doh oon lee-broh) - I am reading a book."
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "lesson_no": 8,
+    "words": [
+      {
+        "word": "casa",
+        "pronunciation": "kah-sah",
+        "meaning": "house",
+        "part_of_speech": "noun",
+        "difficulty": "easy",
+        "when_to_say": "When talking about homes",
+        "example": "Mi casa es grande. (mee kah-sah ehs grahn-deh) - My house is big."
+      },
+      {
+        "word": "cocina",
+        "pronunciation": "koh-see-nah",
+        "meaning": "kitchen",
+        "part_of_speech": "noun",
+        "difficulty": "easy",
+        "when_to_say": "When referring to the kitchen",
+        "example": "La cocina está limpia. (lah koh-see-nah ehs-tah leem-pyah) - The kitchen is clean."
+      },
+      {
+        "word": "baño",
+        "pronunciation": "bah-nyoh",
+        "meaning": "bathroom",
+        "part_of_speech": "noun",
+        "difficulty": "easy",
+        "when_to_say": "When referring to bathrooms",
+        "example": "El baño está ocupado. (el bah-nyoh ehs-tah oh-koo-pah-doh) - The bathroom is occupied."
+      },
+      {
+        "word": "habitación",
+        "pronunciation": "ah-bee-tah-syohn",
+        "meaning": "room",
+        "part_of_speech": "noun",
+        "difficulty": "medium",
+        "when_to_say": "When referring to rooms",
+        "example": "Tengo una habitación grande. (tehn-goh oo-nah ah-bee-tah-syohn grahn-deh) - I have a large room."
+      },
+      {
+        "word": "jardín",
+        "pronunciation": "hahr-deen",
+        "meaning": "garden",
+        "part_of_speech": "noun",
+        "difficulty": "medium",
+        "when_to_say": "When referring to outdoor spaces",
+        "example": "El jardín tiene muchas flores. (el hahr-deen tyeh-neh moo-chahs floh-rehs) - The garden has many flowers."
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "lesson_no": 9,
+    "words": [
+      {
+        "word": "caminar",
+        "pronunciation": "kah-mee-nahr",
+        "meaning": "to walk",
+        "part_of_speech": "verb",
+        "difficulty": "easy",
+        "when_to_say": "When referring to walking",
+        "example": "Voy a caminar al parque. (voy ah kah-mee-nahr ahl pahr-keh) - I am going to walk to the park."
+      },
+      {
+        "word": "correr",
+        "pronunciation": "koh-rrehr",
+        "meaning": "to run",
+        "part_of_speech": "verb",
+        "difficulty": "easy",
+        "when_to_say": "When referring to running",
+        "example": "Me gusta correr por la mañana. (meh goos-tah koh-rrehr por lah mah-nyah-nah) - I like to run in the morning."
+      },
+      {
+        "word": "nadar",
+        "pronunciation": "nah-dahr",
+        "meaning": "to swim",
+        "part_of_speech": "verb",
+        "difficulty": "medium",
+        "when_to_say": "When referring to swimming",
+        "example": "Me encanta nadar en el océano. (meh ehn-kahn-tah nah-dahr en el oh-seh-ah-noh) - I love to swim in the ocean."
+      },
+      {
+        "word": "saltar",
+        "pronunciation": "sahl-tahr",
+        "meaning": "to jump",
+        "part_of_speech": "verb",
+        "difficulty": "medium",
+        "when_to_say": "When referring to jumping",
+        "example": "Los niños están saltando. (lohs nee-nyohs ehs-tahn sahl-tahn-doh) - The kids are jumping."
+      },
+      {
+        "word": "bailar",
+        "pronunciation": "bye-lahr",
+        "meaning": "to dance",
+        "part_of_speech": "verb",
+        "difficulty": "medium",
+        "when_to_say": "When referring to dancing",
+        "example": "Vamos a bailar esta noche. (bah-mohs ah bye-lahr ehs-tah noh-cheh) - Let’s dance tonight."
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "lesson_no": 10,
+    "words": [
+      {
+        "word": "comer",
+        "pronunciation": "koh-mehr",
+        "meaning": "to eat",
+        "part_of_speech": "verb",
+        "difficulty": "easy",
+        "when_to_say": "When referring to eating",
+        "example": "Voy a comer una manzana. (voy ah koh-mehr oo-nah mahn-sah-nah) - I am going to eat an apple."
+      },
+      {
+        "word": "beber",
+        "pronunciation": "beh-behr",
+        "meaning": "to drink",
+        "part_of_speech": "verb",
+        "difficulty": "easy",
+        "when_to_say": "When referring to drinking",
+        "example": "Quiero beber agua. (kyeh-roh beh-behr ah-gwah) - I want to drink water."
+      },
+      {
+        "word": "escribir",
+        "pronunciation": "ehs-kree-beer",
+        "meaning": "to write",
+        "part_of_speech": "verb",
+        "difficulty": "medium",
+        "when_to_say": "When referring to writing",
+        "example": "Voy a escribir una carta. (voy ah ehs-kree-beer oo-nah kahr-tah) - I am going to write a letter."
+      },
+      {
+        "word": "leer",
+        "pronunciation": "leh-ehr",
+        "meaning": "to read",
+        "part_of_speech": "verb",
+        "difficulty": "medium",
+        "when_to_say": "When referring to reading",
+        "example": "Me gusta leer libros. (meh goos-tah leh-ehr lee-brohs) - I like to read books."
+      },
+      {
+        "word": "escuchar",
+        "pronunciation": "ehs-koo-chahr",
+        "meaning": "to listen",
+        "part_of_speech": "verb",
+        "difficulty": "medium",
+        "when_to_say": "When referring to listening",
+        "example": "Me gusta escuchar música. (meh goos-tah ehs-koo-chahr moo-see-kah) - I like to listen to music."
+      }
+    ]
+  }
+]
