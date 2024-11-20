@@ -8,7 +8,7 @@ import { GrChapterAdd } from "react-icons/gr";
 
 const Success = () => {
   return (
-    <div className="bg-yellow-300 p-8 mt-10">
+    <div className="bg-yellow-300  mt-10 pt-16">
       <h1 className="text-5xl font-bold text-center">
         The Proven Lingo Bingo Method
       </h1>
