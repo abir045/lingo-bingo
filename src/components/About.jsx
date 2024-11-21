@@ -7,17 +7,17 @@ import "animate.css";
 const About = () => {
   return (
     <div className="mt-20">
-      <h1 className="text-center text-3xl font-bold animate__animated animate__bounce">
+      <h1 className="text-center text-3xl font-bold animate__animated animate__bounce animate__delay-2s">
         Your guaranteed path towards{" "}
         <span className="text-red-300 italic">speaking</span> a new language
       </h1>
 
       <div className="lg:flex justify-center gap-20 items-center mt-20 w-8/12 mx-auto">
-        <div className="animate__animated animate__backInDown">
+        <div className="animate__animated animate__backInDown animate__delay-1s">
           <img className="w-full rounded-xl" src={convo} alt="" />
         </div>
 
-        <div className="flex flex-col items-start mt-8 animate__animated animate__backInUp">
+        <div className="flex flex-col items-start mt-8 animate__animated animate__backInUp animate__delay-1s">
           <h2 className="text-4xl font-bold ">
             The key to meaningful conversations
           </h2>
@@ -31,7 +31,7 @@ const About = () => {
 
       {/* 2nd */}
       <div className="lg:flex-row flex flex-col-reverse  justify-center gap-5 items-center mt-20 w-8/12 mx-auto ">
-        <div className="flex flex-col items-start mt-8 animate__animated animate__backInLeft">
+        <div className="flex flex-col items-start mt-8 animate__animated animate__backInDown animate__delay-1s">
           <h2 className="text-4xl font-bold  ">
             A learning experience personalized
           </h2>
@@ -43,7 +43,7 @@ const About = () => {
           </p>
         </div>
 
-        <div className="mt-3 animate__animated animate__backInRight">
+        <div className="mt-3 animate__animated animate__backInDown animate__delay-1s">
           <img className="w-full rounded-xl" src={phone} alt="" />
         </div>
       </div>
@@ -51,11 +51,11 @@ const About = () => {
       {/* 3rd */}
 
       <div className="lg:flex justify-center gap-20 items-center mt-20 w-8/12 mx-auto">
-        <div className="animate__animated animate__bounceInLeft">
+        <div className="animate__animated animate__bounceInLeft animate__delay-1s">
           <img className="w-full rounded-xl" src={flash} alt="" />
         </div>
 
-        <div className="flex flex-col items-start mt-8 animate__animated animate__bounceInRight">
+        <div className="flex flex-col items-start mt-8 animate__animated animate__bounceInRight animate__delay-1s">
           <h2 className="text-4xl font-bold ">A complete approach</h2>
           <p className="mt-3  ">
             Sharpen your pronunciation using speech recognition. Build your

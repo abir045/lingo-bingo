@@ -13,7 +13,7 @@ const Beyond = () => {
       </p>
 
       <div className="lg:flex justify-center items-center mt-10">
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center animate__animated animate__backInDown animate__delay-1s">
           <img src={videos} className="w-[300px] rounded-xl" alt="" />
           <p className="mt-5 font-semibold">Lingo Bingo Videos</p>
           <p className="mt-5 w-1/2 ">
@@ -23,7 +23,7 @@ const Beyond = () => {
         </div>
         {/*podcasts  */}
 
-        <div className="flex flex-col items-center mt-5">
+        <div className="flex flex-col items-center mt-5 animate__animated animate__backInDown animate__delay-1s">
           <img src={podcast} className="w-[300px] rounded-xl" alt="" />
           <p className="mt-5 font-semibold">Lingo Bingo Podcasts</p>
           <p className="mt-5 w-1/2 ">
@@ -34,7 +34,7 @@ const Beyond = () => {
 
         {/* magazines */}
 
-        <div className="flex flex-col items-center mt-5">
+        <div className="flex flex-col items-center mt-5 animate__animated animate__backInDown animate__delay-1s">
           <img src={magazine} className="w-[300px] rounded-xl" alt="" />
           <p className="mt-5 font-semibold">Lingo Bingo Magazine</p>
           <p className="mt-5 w-1/2 ">
