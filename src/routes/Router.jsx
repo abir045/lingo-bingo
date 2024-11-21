@@ -10,11 +10,13 @@ import MyProfile from "../pages/MyProfile";
 import UpdateProfile from "../pages/UpdateProfile";
 import Tutorials from "../pages/Tutorials";
 import ForgetPassword from "../pages/ForgetPassword";
+import ErrorPage from "../pages/ErrorPage";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <HomeLayout />,
+    errorElement: <ErrorPage />,
   },
   {
     path: "/start-learning",
@@ -39,10 +41,7 @@ const router = createBrowserRouter([
       </PrivateRoute>
     ),
   },
-  {
-    path: "/about-us",
-    element: <h2>about us</h2>,
-  },
+
   {
     path: "/myprofile",
 
@@ -73,10 +72,6 @@ const router = createBrowserRouter([
         element: <ForgetPassword />,
       },
     ],
-  },
-  {
-    path: "*",
-    element: <h1>Error</h1>,
   },
 ]);
 

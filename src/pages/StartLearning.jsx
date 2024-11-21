@@ -6,7 +6,7 @@ import Footer from "../components/Footer";
 
 const StartLearning = () => {
   const data = useLoaderData();
-  console.log(data);
+  // console.log(data);
 
   // useEffect(() => {
   //   setAllCards(data);

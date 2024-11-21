@@ -8,7 +8,7 @@ import "react-toastify/dist/ReactToastify.css";
 const Register = () => {
   const { createNewUser, setUser, updateUserProfile, signInWithGoogle } =
     useContext(AuthContext);
-  const [error, setError] = useState({});
+  // const [error, setError] = useState({});
   const navigate = useNavigate();
 
   const handleSubmit = (e) => {
@@ -29,12 +29,12 @@ const Register = () => {
       return;
     }
 
-    console.log({ name, email, photo, password });
+    // console.log({ name, email, photo, password });
 
     createNewUser(email, password)
       .then((result) => {
         const user = result.user;
-        console.log(user);
+        // console.log(user);
         setUser(user);
         updateUserProfile({ displayName: name, photoURL: photo })
           .then(() => {

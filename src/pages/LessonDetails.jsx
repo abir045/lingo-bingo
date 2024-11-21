@@ -9,14 +9,14 @@ const LessonDetails = () => {
   const params = useParams();
   const [modalData, setModalData] = useState(null);
 
-  console.log(params);
+  // console.log(params);
 
   const singleLesson = lessons.filter(
     (data) => data.lesson_no === parseInt(params.lesson_no)
   );
 
-  console.log(singleLesson);
-  console.log(singleLesson[0].lesson_no);
+  // console.log(singleLesson);
+  // console.log(singleLesson[0].lesson_no);
 
   const openModal = (item) => {
     setModalData(item);
