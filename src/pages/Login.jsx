@@ -6,7 +6,8 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const Login = () => {
-  const { userLogin, setUser, signInWithGoogle } = useContext(AuthContext);
+  const { userLogin, setUser, signInWithGoogle, setResetEmail } =
+    useContext(AuthContext);
   // const [error, setError] = useState({});
   const location = useLocation();
   const navigate = useNavigate();
@@ -16,6 +17,8 @@ const Login = () => {
     const form = e.target;
     const email = form.email.value;
     const password = form.password.value;
+
+    setResetEmail(email);
     console.log(email, password);
 
     userLogin(email, password)

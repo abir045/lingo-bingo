@@ -1,19 +1,22 @@
 import { getAuth, sendPasswordResetEmail } from "firebase/auth";
-import React, { useRef } from "react";
+import React, { useContext, useRef, useState } from "react";
 import app from "../firebase/firebase.config";
 import { useNavigate } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { AuthContext } from "../provider/AuthProvider";
 
 const ForgetPassword = () => {
-  const emailRef = useRef();
+  const { resetEmail } = useContext(AuthContext);
+  const [email, setEmail] = useState(resetEmail);
+  //   const emailRef = useRef();
   const auth = getAuth(app);
 
   const handleForgetPassword = (e) => {
     e.preventDefault();
-    const email = emailRef.current.value;
+    // const email = emailRef.current.value;
     if (!email) {
-      console.log("please provide a valid email address");
+      toast.error("please provide a valid email address");
     } else {
       sendPasswordResetEmail(auth, email)
         .then(() => {
@@ -38,7 +41,9 @@ const ForgetPassword = () => {
               <span className="label-text">email</span>
             </label>
             <input
-              ref={emailRef}
+              //   ref={emailRef}
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
               name="email"
               type="email"
               placeholder="email"
