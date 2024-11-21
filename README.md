@@ -1,8 +1,12 @@
-# React + Vite
+# Lingo Bingo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## This Project is a language learning single page application.
 
-Currently, two official plugins are available:
+- Here Users can go to different routes to learn vocabularies and watch video tutorials.
+- Some of the routes require you to register and login.
+- Users can sign up with email, password or directly login with google.
+- A user can update their profile information on his private route after signing up.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Live Link
+
+- https://lingo-bingo-6cead.web.app/

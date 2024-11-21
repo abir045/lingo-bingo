@@ -54,7 +54,7 @@ const Header = () => {
               {links}
             </ul>
           </div>
-          <NavLink className="btn btn-ghost text-xl" to="/">
+          <NavLink className="btn btn-ghost text-xl pr-2" to="/">
             Lingo Bingo
           </NavLink>
         </div>
