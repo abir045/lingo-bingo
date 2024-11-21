@@ -9,11 +9,14 @@ const LessonDetails = () => {
   const params = useParams();
   const [modalData, setModalData] = useState(null);
 
-  console.log(params.id);
+  console.log(params);
 
-  const singleLesson = lessons.filter((data) => data.id === params.id);
+  const singleLesson = lessons.filter(
+    (data) => data.lesson_no === parseInt(params.lesson_no)
+  );
 
   console.log(singleLesson);
+  console.log(singleLesson[0].lesson_no);
 
   const openModal = (item) => {
     setModalData(item);
@@ -23,14 +26,15 @@ const LessonDetails = () => {
   return (
     <div>
       <Header />
-      <h2 className="text-center text-2xl font-bold">
-        Lesson No: {singleLesson[0].id}{" "}
+
+      <h2 className="text-center text-2xl font-bold pt-28">
+        Lesson No: {singleLesson[0].lesson_no}{" "}
       </h2>
 
-      <div className="flex flex-col items-center gap-5">
-        {singleLesson[0].words.map((item) => (
+      <div className="flex flex-col items-center gap-5 mt-10">
+        {singleLesson[0].words.map((item, index) => (
           <DetailsCard
-            key={item.lesson_no}
+            key={index}
             item={item}
             onOpenModal={() => openModal(item)}
           />
@@ -58,9 +62,9 @@ const LessonDetails = () => {
               </p>
             </>
           )}
-          <div className="modal-action">
+          <div className="modal-action flex justify-start">
             <form method="dialog">
-              <button className="btn">Close</button>
+              <button className="btn btn-neutral">Close</button>
             </form>
           </div>
         </div>

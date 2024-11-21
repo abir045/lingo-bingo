@@ -2,6 +2,10 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import HomeLayout from "../layout/HomeLayout";
 import StartLearning from "../pages/StartLearning";
 import LessonDetails from "../pages/LessonDetails";
+import AuthLayout from "../layout/AuthLayout";
+import Login from "../pages/Login";
+import Register from "../pages/Register";
+import PrivateRoute from "./PrivateRoute";
 
 const router = createBrowserRouter([
   {
@@ -14,8 +18,13 @@ const router = createBrowserRouter([
     loader: () => fetch("/lessons.json"),
   },
   {
-    path: "/lessons/:id",
-    element: <LessonDetails />,
+    path: "/lessons/:lesson_no",
+
+    element: (
+      <PrivateRoute>
+        <LessonDetails />
+      </PrivateRoute>
+    ),
     loader: () => fetch(`/total.json`),
   },
   {
@@ -25,6 +34,24 @@ const router = createBrowserRouter([
   {
     path: "/about-us",
     element: <h2>about us</h2>,
+  },
+  {
+    path: "/auth",
+    element: <AuthLayout />,
+    children: [
+      {
+        path: "/auth/login",
+        element: <Login />,
+      },
+      {
+        path: "/auth/register",
+        element: <Register />,
+      },
+    ],
+  },
+  {
+    path: "*",
+    element: <h1>Error</h1>,
   },
 ]);
 

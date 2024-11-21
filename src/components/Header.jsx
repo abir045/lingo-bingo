@@ -1,7 +1,10 @@
-import React from "react";
-import { NavLink } from "react-router-dom";
+import React, { useContext } from "react";
+import { Link, NavLink } from "react-router-dom";
+import { AuthContext } from "../provider/AuthProvider";
 
 const Header = () => {
+  const { user, logout } = useContext(AuthContext);
+
   const links = (
     <>
       <li>
@@ -22,7 +25,7 @@ const Header = () => {
 
   return (
     <div>
-      <div className="navbar bg-base-100">
+      <div className="navbar bg-base-100 fixed z-10">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -45,16 +48,37 @@ const Header = () => {
               tabIndex={0}
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
             >
+              <li className="ml-2 font-semibold">
+                {user ? " Welcome " + user.displayName : ""}
+              </li>
               {links}
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl">Lingo Bingo</a>
+          <NavLink className="btn btn-ghost text-xl" to="/">
+            Lingo Bingo
+          </NavLink>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">{links}</ul>
+          <ul className="menu menu-horizontal px-1">
+            <li className="mt-2 mx-5 font-semibold flex items-center">
+              {user ? " Welcome " + user.displayName : ""}
+            </li>
+            {links}
+          </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn">Button</a>
+          {user && user?.email ? (
+            <div className="flex items-center gap-4">
+              <img className="w-10 rounded-full" src={user?.photoURL} alt="" />{" "}
+              <button className="btn btn-neutral rounded-xl" onClick={logout}>
+                Logout
+              </button>
+            </div>
+          ) : (
+            <Link className="btn btn-neutral" to="/auth/login">
+              Log In
+            </Link>
+          )}
         </div>
       </div>
     </div>

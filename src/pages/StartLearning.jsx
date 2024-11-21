@@ -15,10 +15,10 @@ const StartLearning = () => {
   return (
     <div className="">
       <Header />
-      <h2 className="font-bold text-4xl text-center mt-10">
-        Let's learn WIth Lingo Bingo, Choose your lesson{" "}
+      <h2 className="font-bold text-4xl text-center pt-20">
+        Let's learn With Lingo Bingo, Choose your lesson{" "}
       </h2>
-      <div className="grid grid-cols-1 md:grid-cols-1   lg:grid-cols-3 gap-5 w-11/12 mx-auto ">
+      <div className="grid grid-cols-1 md:grid-cols-1   lg:grid-cols-3 gap-5 w-11/12 mx-auto pt-10 ">
         {data.length > 0 &&
           data?.map((item) => <LessonCard key={item.id} item={item} />)}
       </div>
