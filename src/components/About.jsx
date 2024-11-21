@@ -2,21 +2,22 @@ import React from "react";
 import convo from "../assets/convo2.jpg";
 import phone from "../assets/on-phone.jpg";
 import flash from "../assets/flashcards.jpg";
+import "animate.css";
 
 const About = () => {
   return (
     <div className="mt-20">
-      <h1 className="text-center text-3xl font-bold">
+      <h1 className="text-center text-3xl font-bold animate__animated animate__bounce">
         Your guaranteed path towards{" "}
         <span className="text-red-300 italic">speaking</span> a new language
       </h1>
 
       <div className="lg:flex justify-center gap-20 items-center mt-20 w-8/12 mx-auto">
-        <div className="">
+        <div className="animate__animated animate__backInDown">
           <img className="w-full rounded-xl" src={convo} alt="" />
         </div>
 
-        <div className="flex flex-col items-start mt-8">
+        <div className="flex flex-col items-start mt-8 animate__animated animate__backInUp">
           <h2 className="text-4xl font-bold ">
             The key to meaningful conversations
           </h2>
@@ -29,8 +30,8 @@ const About = () => {
       </div>
 
       {/* 2nd */}
-      <div className="lg:flex-row flex flex-col-reverse  justify-center gap-5 items-center mt-20 w-8/12 mx-auto">
-        <div className="flex flex-col items-start mt-8">
+      <div className="lg:flex-row flex flex-col-reverse  justify-center gap-5 items-center mt-20 w-8/12 mx-auto ">
+        <div className="flex flex-col items-start mt-8 animate__animated animate__backInLeft">
           <h2 className="text-4xl font-bold  ">
             A learning experience personalized
           </h2>
@@ -42,7 +43,7 @@ const About = () => {
           </p>
         </div>
 
-        <div className="mt-3">
+        <div className="mt-3 animate__animated animate__backInRight">
           <img className="w-full rounded-xl" src={phone} alt="" />
         </div>
       </div>
@@ -50,11 +51,11 @@ const About = () => {
       {/* 3rd */}
 
       <div className="lg:flex justify-center gap-20 items-center mt-20 w-8/12 mx-auto">
-        <div className="">
+        <div className="animate__animated animate__bounceInLeft">
           <img className="w-full rounded-xl" src={flash} alt="" />
         </div>
 
-        <div className="flex flex-col items-start mt-8">
+        <div className="flex flex-col items-start mt-8 animate__animated animate__bounceInRight">
           <h2 className="text-4xl font-bold ">A complete approach</h2>
           <p className="mt-3  ">
             Sharpen your pronunciation using speech recognition. Build your
