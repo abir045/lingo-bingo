@@ -8,6 +8,7 @@ import Register from "../pages/Register";
 import PrivateRoute from "./PrivateRoute";
 import MyProfile from "../pages/MyProfile";
 import UpdateProfile from "../pages/UpdateProfile";
+import Tutorials from "../pages/Tutorials";
 
 const router = createBrowserRouter([
   {
@@ -31,7 +32,11 @@ const router = createBrowserRouter([
   },
   {
     path: "/tutorials",
-    element: <h2>Tutorials</h2>,
+    element: (
+      <PrivateRoute>
+        <Tutorials />
+      </PrivateRoute>
+    ),
   },
   {
     path: "/about-us",
