@@ -118,11 +118,11 @@ const Register = () => {
               className="input input-bordered"
               required
             />
-            <label className="label">
+            {/* <label className="label">
               <a href="#" className="label-text-alt link link-hover">
                 Forgot password?
               </a>
-            </label>
+            </label> */}
           </div>
           {/* {error.password && (
             <label className="label">

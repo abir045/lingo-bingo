@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, { useContext, useRef, useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { FaGoogle } from "react-icons/fa";
 import { AuthContext } from "../provider/AuthProvider";
@@ -7,7 +7,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 const Login = () => {
   const { userLogin, setUser, signInWithGoogle } = useContext(AuthContext);
-  const [error, setError] = useState({});
+  // const [error, setError] = useState({});
   const location = useLocation();
   const navigate = useNavigate();
 
@@ -76,9 +76,12 @@ const Login = () => {
             />
 
             <label className="label">
-              <a href="#" className="label-text-alt link link-hover">
+              <Link
+                to={"/auth/forgetpassword"}
+                className="label-text-alt link link-hover"
+              >
                 Forgot password?
-              </a>
+              </Link>
             </label>
           </div>
 
