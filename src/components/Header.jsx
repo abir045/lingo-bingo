@@ -68,7 +68,10 @@ const Header = () => {
         </div>
         <div className="navbar-end">
           {user && user?.email ? (
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-3">
+              <NavLink to={"/myprofile"} className="flex">
+                My Profile
+              </NavLink>
               <img className="w-10 rounded-full" src={user?.photoURL} alt="" />{" "}
               <button className="btn btn-neutral rounded-xl" onClick={logout}>
                 Logout
