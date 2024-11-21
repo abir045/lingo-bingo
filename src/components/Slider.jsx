@@ -11,13 +11,13 @@ import "react-awesome-slider/dist/styles.css";
 const Slider = () => {
   return (
     <AwesomeSlider>
-      <div>
+      <div className="w-full">
         <img src={fourthImg} className="w-full" alt="" />
       </div>
-      <div>
+      <div className="w-full">
         <img src={secondImg} className="w-full" alt="" />
       </div>
-      <div>
+      <div className="w-full">
         <img src={thirdImg} className="w-full" alt="" />
       </div>
     </AwesomeSlider>
