@@ -65,7 +65,12 @@ const router = createBrowserRouter([
       },
       {
         path: "/auth/updateprofile",
-        element: <UpdateProfile />,
+
+        element: (
+          <PrivateRoute>
+            <UpdateProfile />
+          </PrivateRoute>
+        ),
       },
       {
         path: "/auth/forgetpassword",
